@@ -60,6 +60,15 @@ public class SnakeLife : MonoBehaviour
             addChank();
         }
     }
+    public void DestroySnake()
+    {
+        direction = new Vector2(0, 0);
+        foreach(var tail in SnakeTail)
+        {
+            Destroy(tail);
+        }
+        Destroy(gameObject);
+    }
     // Start is called before the first frame update
     void Update()
     {
