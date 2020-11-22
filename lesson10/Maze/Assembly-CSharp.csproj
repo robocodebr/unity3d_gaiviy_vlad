@@ -58,6 +58,7 @@
     <Compile Include="Assets\Script\Player.cs" />
     <Compile Include="Assets\Script\Game.cs" />
     <Compile Include="Assets\Script\MazeExit.cs" />
+    <Compile Include="Assets\Script\Death.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
